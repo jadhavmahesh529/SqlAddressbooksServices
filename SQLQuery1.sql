@@ -21,6 +21,11 @@ select *from AddressBook where city ='maha' and state='maharshtara';
 --UC7 uderstand size
 select city ,state, count(*) as size from AddressBook group by city,state;
 
+--UC8 sorting 
+select * from AddressBook where city ='maha' order by firstname ,lastname;
+
+
+
 
 
  
