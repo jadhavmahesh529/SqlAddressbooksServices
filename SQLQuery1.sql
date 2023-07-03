@@ -18,4 +18,9 @@ delete from AddressBook where firstname ='ram'and lastname='Khandagale';
 --UC6-REtriveData
 select *from AddressBook where city ='maha' and state='maharshtara';
 
+--UC7 uderstand size
+select city ,state, count(*) as size from AddressBook group by city,state;
+
+
+
  
