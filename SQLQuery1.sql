@@ -29,4 +29,6 @@ alter table AddressBook add name varchar(20), type varchar(20);
 update AddressBook set name='my address book', type='friend' where firstname = 'Rahul' and lastname = 'Khandagale';
 update AddressBook set name='my address book', type='friend' where firstname = 'sagar' and lastname = 'Bhavar';
 
- 
+--UC-10 Get person by type
+  select type, count(*) as totalnumber from AddressBook group by type;
+
