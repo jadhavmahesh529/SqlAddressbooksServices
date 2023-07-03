@@ -8,3 +8,7 @@ insert into AddressBook values ('Rahul','Khandagale','abc','maha','maharshtra',4
 ('Sagar','Bhavar','abc','maha','maharshtara',431106,992152422,'sagarbhavr@gmial.com');
 select *from AddressBook;
 
+--UC4-EDit Contact
+update AddressBook set address='xyz',city='def',state='sambhajinagr', zip= 676637, phonenumber= 746353522,
+email='rahulkhandagle98@gmail.com' where Firstname='Avinash' and lastname ='Khandgale';
+
