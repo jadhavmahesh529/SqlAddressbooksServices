@@ -12,3 +12,6 @@ select *from AddressBook;
 update AddressBook set address='xyz',city='def',state='sambhajinagr', zip= 676637, phonenumber= 746353522,
 email='rahulkhandagle98@gmail.com' where Firstname='Avinash' and lastname ='Khandgale';
 
+--UC5-Delete contact
+delete from AddressBook where firstname ='ram'and lastname='Khandagale';
+
