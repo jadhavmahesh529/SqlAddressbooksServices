@@ -15,3 +15,7 @@ email='rahulkhandagle98@gmail.com' where Firstname='Avinash' and lastname ='Khan
 --UC5-Delete contact
 delete from AddressBook where firstname ='ram'and lastname='Khandagale';
 
+--UC6-REtriveData
+select *from AddressBook where city ='maha' and state='maharshtara';
+
+ 
